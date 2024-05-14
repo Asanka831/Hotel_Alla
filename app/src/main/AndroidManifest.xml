@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hotel">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/unnamed"
+        android:label="Hotel Alla"
+        android:roundIcon="@drawable/unnamed"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light"
+        >
+        <activity
+            android:name=".images"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Light" />
+        <activity
+            android:name=".vemplyee"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Light" />
+
+        <meta-data
+            android:name="com.google.android.actions"
+            android:resource="@xml/main" />
+
+        <activity android:name=".searchrooms" />
+        <activity android:name=".lendingroom" />
+        <activity android:name=".employee" />
+        <activity android:name=".managerooms" />
+        <activity android:name=".cusmanu" />
+        <activity android:name=".cuslogin" />
+        <activity android:name=".adminLogin" />
+        <activity android:name=".signup" />
+        <activity android:name=".adminMenu" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.Light">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

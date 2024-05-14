@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:fitsSystemWindows="true"
+    tools:context=".images">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="229dp"
+        android:layout_height="78dp"
+        android:layout_marginStart="14mm"
+        android:text="Images"
+        android:textAlignment="center"
+        android:textSize="50sp" />
+
+    <ScrollView
+        android:layout_width="2mm"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="5mm"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="25mm"
+        android:layout_height="25mm"
+        android:layout_marginStart="3mm"
+        android:layout_marginTop="11mm"
+        app:srcCompat="@drawable/_7729f3cdab9b7565fd726b162744bac" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="25mm"
+        android:layout_height="25mm"
+        android:layout_marginStart="3mm"
+        android:layout_marginTop="75mm"
+        app:srcCompat="@drawable/images__1_" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="25mm"
+        android:layout_height="25mm"
+        android:layout_marginStart="33mm"
+        android:layout_marginTop="75mm"
+        app:srcCompat="@drawable/images__2_" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="25mm"
+        android:layout_height="25mm"
+        android:layout_marginStart="3mm"
+        android:layout_marginTop="50mm"
+        app:srcCompat="@drawable/images__3_" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="25mm"
+        android:layout_height="25mm"
+        android:layout_marginStart="33mm"
+        android:layout_marginTop="50mm"
+        app:srcCompat="@drawable/images__4_" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="25mm"
+        android:layout_height="25mm"
+        android:layout_marginStart="33mm"
+        android:layout_marginTop="28mm"
+        app:srcCompat="@drawable/images__6_" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="25mm"
+        android:layout_height="25mm"
+        android:layout_marginStart="3mm"
+        android:layout_marginTop="30mm"
+        app:srcCompat="@drawable/images__8_" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="25mm"
+        android:layout_height="25mm"
+        android:layout_marginStart="33mm"
+        android:layout_marginTop="10mm"
+        app:srcCompat="@drawable/images__7_" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="25mm"
+        android:layout_height="25mm"
+        android:layout_marginStart="3mm"
+        android:layout_marginTop="100mm"
+        app:srcCompat="@drawable/photo2jpg" />
+
+
+
+    <Button
+        android:id="@+id/back11"
+        android:layout_width="10mm"
+        android:layout_height="5mm"
+        android:text="back"
+        android:background="@color/colorRed"
+        android:textAlignment="center"
+        android:layout_marginStart="3mm"
+        android:layout_marginTop="130mm"
+         />
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

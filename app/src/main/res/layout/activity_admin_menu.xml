@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".adminMenu">
+
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="384dp"
+        android:layout_height="78dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="56dp"
+        android:text="Hotel Management System"
+        android:textColor="@android:color/black"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:fontFamily="monospace"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnaddingB"
+        android:layout_width="180dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="210dp"
+        android:layout_marginTop="350dp"
+        android:text="manage Rooms"
+        android:background="@color/colorPeriwinkle"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+    <Button
+        android:id="@+id/btnempadd"
+        android:layout_width="180dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="350dp"
+        android:text="manage Employee data"
+        android:background="@color/colorPeriwinkle"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnlending"
+        android:layout_width="180dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="176dp"
+        android:background="@color/colorPeriwinkle"
+        android:text="Room Lending"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <Button
+        android:id="@+id/viewem"
+        android:layout_width="180dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="210dp"
+        android:layout_marginTop="176dp"
+        android:background="@color/colorPeriwinkle"
+        android:text="Employee data"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnlogout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="260dp"
+        android:layout_marginTop="650dp"
+        android:background="@color/colorRed"
+        android:textColor="@android:color/black"
+        android:text="logout"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
